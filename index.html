@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Interactive Brain Map</title>
+
+<script src="https://cdn.jsdelivr.net/npm/papaya-viewer@1.0.145/release/current/papaya.js"></script>
+<link rel="stylesheet" type="text/css"
+href="https://cdn.jsdelivr.net/npm/papaya-viewer@1.0.145/release/current/papaya.css">
+
+<style>
+body{
+font-family: Arial;
+text-align:center;
+background:#ffffff;
+}
+
+h2{
+margin-top:20px;
+}
+
+.papaya{
+margin:auto;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Voxel-wise GMV Alterations</h2>
+
+<p>FEP vs Healthy Controls</p>
+
+<div class="papaya"
+data-params='{
+"images":[
+"https://cdn.jsdelivr.net/npm/papaya-viewer@1.0.145/data/mni152.nii.gz",
+"stat_map.nii.gz"
+],
+"worldSpace": true
+}'>
+</div>
+
+</body>
+</html>
